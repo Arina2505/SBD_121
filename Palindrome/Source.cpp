@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -6,18 +6,18 @@ void main()
 	setlocale(LC_ALL, "Russian");
 	//cout << "hello";
 	int number ,a, b, c, d ;
-	cout << "Ââåäèòå 4-õ çíà÷íîå ÷èñëî:";  cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 4-Ñ… Ð·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:";  cin >> number;
 	d = number % 10;
 	c = number / 10 % 10;
 	b = number / 100 % 10;
 	a = number / 1000;
 	if (d == a && c == b)
 	{
-		cout << "×èñëî ÿâëÿåòñÿ ïàëèíäðîìîì" << endl;
+		cout << "Ð§Ð¸ÑÐ»Ð¾ ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼Ð¾Ð¼" << endl;
 
 	}
 	else
 	{
-		cout << "×èñëî íå ÿâëÿåòñÿ ïàëèíäðîìîì" << endl;
+		cout << "Ð§Ð¸ÑÐ»Ð¾ Ð½Ðµ ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼Ð¾Ð¼" << endl;
 	}
 }
